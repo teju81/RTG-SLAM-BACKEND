@@ -34,6 +34,7 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release \
          -DOpenCV_DIR=${opencv_dir} \
          -DCMAKE_INSTALL_PREFIX=${install_path} \
-         -DPangolin_DIR=${pangolin_dir}
+         -DBUILD_TESTS=OFF \
+         -DBUILD_EXAMPLES=OFF
 
 make install -j
