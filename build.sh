@@ -37,4 +37,4 @@ cmake .. -DCMAKE_BUILD_TYPE=Release \
          -DBUILD_TESTS=OFF \
          -DBUILD_EXAMPLES=OFF
 
-make install -j
+make install
